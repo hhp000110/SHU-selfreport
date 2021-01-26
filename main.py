@@ -57,7 +57,7 @@ def report_day(sess, t):
         return False
 
     BaoSRQ = t.strftime('%Y-%m-%d')
-    XiangXDZ = get_random_address()
+    XiangXDZ = 普照路
 
     while True:
         try:
@@ -92,8 +92,8 @@ def report_day(sess, t):
                 "p1$ddlSheng": "上海",
                 "p1$ddlShi$Value": "上海市",
                 "p1$ddlShi": "上海市",
-                "p1$ddlXian$Value": "宝山区",
-                "p1$ddlXian": "宝山区",
+                "p1$ddlXian$Value": "松江区",
+                "p1$ddlXian": "松江区",
                 "p1$XiangXDZ": XiangXDZ,
                 "p1$FengXDQDL": "否",
                 "p1$TongZWDLH": "否",
